@@ -10,6 +10,7 @@ body{
 
 .map{
   height: 100%;
+  background: no-repeat;
 }
 
 .message-form{
@@ -17,4 +18,13 @@ body{
   top: 0;
   right: 0;
   z-index: 9999;
+}
+
+.author{
+  opacity: .7;
+}
+
+.quoteWindow{
+  max-width: 80px;
+  min-width: 60px;
 }
